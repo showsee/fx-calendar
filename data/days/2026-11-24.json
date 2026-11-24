@@ -1,0 +1,273 @@
+{
+ "date": "2026-11-24",
+ "source": "hitsujikai",
+ "sourceUrl": "https://kissfx.com/article/fxdays20261124.html",
+ "fetched": "2026-11-24T00:21:21.577Z",
+ "notes": [
+  "日本→祝日・休場明け"
+ ],
+ "events": [
+  {
+   "id": "2026-11-24-06:00-0",
+   "time": "06:00",
+   "at": "2026-11-24T06:00:00+09:00",
+   "country": "米",
+   "currency": "USD",
+   "flag": "米国",
+   "title": "米)ウィリアムズ：NY連銀総裁の発言(投票権あり)",
+   "rank": "AA",
+   "emphasis": 2,
+   "kind": "speech",
+   "bg": "yellow",
+   "values": [],
+   "children": [],
+   "links": [],
+   "memo": "要人発言"
+  },
+  {
+   "id": "2026-11-24-18:00-1",
+   "time": "18:00",
+   "at": "2026-11-24T18:00:00+09:00",
+   "country": "独",
+   "currency": "EUR",
+   "flag": "ドイツ",
+   "title": "独)IFO景況指数",
+   "rank": "○",
+   "emphasis": 1,
+   "kind": "indicator",
+   "bg": null,
+   "values": [
+    {
+     "forecast": "90.5",
+     "previous": "90.2"
+    }
+   ],
+   "children": [
+    {
+     "title": "IFO現況指数",
+     "forecast": "89.1",
+     "previous": "88.8"
+    },
+    {
+     "title": "IFO景気期待指数",
+     "forecast": "92.0",
+     "previous": "91.6"
+    }
+   ],
+   "links": [
+    {
+     "pair": "ユーロドル",
+     "url": "https://fxrec.com/ifo/"
+    },
+    {
+     "pair": "ユーロ円",
+     "url": "https://eurjpy.fxrec.com/ifo/"
+    }
+   ],
+   "prevMove": "+1.7pips",
+   "mkCode": "DE-IFO"
+  },
+  {
+   "id": "2026-11-24-20:00-2",
+   "time": "20:00",
+   "at": "2026-11-24T20:00:00+09:00",
+   "country": "英",
+   "currency": "GBP",
+   "flag": "英国",
+   "title": "英)CBI流通取引調査",
+   "rank": "×",
+   "emphasis": 0,
+   "kind": "indicator",
+   "bg": null,
+   "values": [
+    {
+     "forecast": "-28",
+     "previous": "-10"
+    }
+   ],
+   "children": [],
+   "links": []
+  },
+  {
+   "id": "2026-11-24-21:30-3",
+   "time": "21:30",
+   "at": "2026-11-24T21:30:00+09:00",
+   "country": "英",
+   "currency": "GBP",
+   "flag": "英国",
+   "title": "英)グリーンMPC委員の発言",
+   "rank": "△",
+   "emphasis": 0,
+   "kind": "speech",
+   "bg": "yellow",
+   "values": [],
+   "children": [],
+   "links": [],
+   "memo": "要人発言"
+  },
+  {
+   "id": "2026-11-24-23:00-4",
+   "time": "23:00",
+   "at": "2026-11-24T23:00:00+09:00",
+   "country": "米",
+   "currency": "USD",
+   "flag": "米国",
+   "title": "米)S＆P/ケース・シラー住宅価格指数",
+   "rank": "BB",
+   "emphasis": 1,
+   "kind": "indicator",
+   "bg": "pink",
+   "values": [
+    {
+     "forecast": "+0.20%",
+     "previous": "+0.27%"
+    },
+    {
+     "forecast": "+2.70%",
+     "previous": "+2.65%"
+    }
+   ],
+   "children": [],
+   "links": [],
+   "labels": [
+    "前月比",
+    "前年比"
+   ],
+   "prevMove": "-0.5pips",
+   "mkCode": "US-CSHP"
+  },
+  {
+   "id": "2026-11-24-23:00-5",
+   "time": "23:00",
+   "at": "2026-11-24T23:00:00+09:00",
+   "country": "米",
+   "currency": "USD",
+   "flag": "米国",
+   "title": "米)住宅価格指数",
+   "rank": "BB",
+   "emphasis": 1,
+   "kind": "indicator",
+   "bg": "pink",
+   "values": [
+    {
+     "forecast": "+0.2%",
+     "previous": "+0.3%"
+    }
+   ],
+   "children": [
+    {
+     "title": "第3四半期住宅価格指数",
+     "forecast": "-",
+     "previous": "+0.4%"
+    }
+   ],
+   "links": [],
+   "prevMove": "-0.5pips",
+   "mkCode": "US-HPI"
+  },
+  {
+   "id": "2026-11-24-24:00-6",
+   "time": "24:00",
+   "at": "2026-11-25T00:00:00+09:00",
+   "country": "米",
+   "currency": "USD",
+   "flag": "米国",
+   "title": "米)消費者信頼感指数",
+   "rank": "AA",
+   "emphasis": 2,
+   "kind": "indicator",
+   "bg": "pink",
+   "values": [
+    {
+     "forecast": "92.5",
+     "previous": "91.7"
+    }
+   ],
+   "children": [],
+   "links": [
+    {
+     "pair": "ユーロドル",
+     "url": "https://fxrec.com/cat29/"
+    },
+    {
+     "pair": "ドル円",
+     "url": "https://usdjpy.fxrec.com/cat94/"
+    }
+   ],
+   "prevMove": "-0.2pips",
+   "mkCode": "US-CCCI"
+  },
+  {
+   "id": "2026-11-24-24:00-7",
+   "time": "24:00",
+   "at": "2026-11-25T00:00:00+09:00",
+   "country": "米",
+   "currency": "USD",
+   "flag": "米国",
+   "title": "米)リッチモンド連銀製造業指数",
+   "rank": "C",
+   "emphasis": 0,
+   "kind": "indicator",
+   "bg": "pink",
+   "values": [
+    {
+     "forecast": "-2",
+     "previous": "-2"
+    }
+   ],
+   "children": [],
+   "links": [],
+   "prevMove": "-0.2pips",
+   "mkCode": "US-RMI"
+  },
+  {
+   "id": "2026-11-24-25:30-8",
+   "time": "25:30",
+   "at": "2026-11-25T01:30:00+09:00",
+   "country": "加",
+   "currency": "CAD",
+   "flag": "カナダ",
+   "title": "加)マックレムBOC総裁の発言",
+   "rank": "◎",
+   "emphasis": 2,
+   "kind": "speech",
+   "bg": "yellow",
+   "values": [],
+   "children": [],
+   "links": [
+    {
+     "pair": "カナダ円",
+     "url": "https://cadjpy.fxrec.com/boc_2/"
+    }
+   ],
+   "memo": "要人発言"
+  },
+  {
+   "id": "2026-11-24-27:00-9",
+   "time": "27:00",
+   "at": "2026-11-25T03:00:00+09:00",
+   "country": "米",
+   "currency": "USD",
+   "flag": "米国",
+   "title": "米)5年債入札",
+   "rank": "A",
+   "emphasis": 1,
+   "kind": "auction",
+   "bg": "pink",
+   "values": [],
+   "children": [],
+   "links": [
+    {
+     "pair": "ユーロドル",
+     "url": "https://fxrec.com/cat232/"
+    },
+    {
+     "pair": "ドル円",
+     "url": "https://usdjpy.fxrec.com/cat231/"
+    }
+   ],
+   "memo": "700億ドル"
+  }
+ ],
+ "resultsUpdated": "2026-11-24T00:21:21.579Z"
+}

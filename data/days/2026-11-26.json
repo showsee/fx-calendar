@@ -1,0 +1,259 @@
+{
+ "date": "2026-11-26",
+ "source": "hitsujikai",
+ "sourceUrl": "https://kissfx.com/article/fxdays20261126.html",
+ "fetched": "2026-11-24T00:21:21.659Z",
+ "notes": [
+  "米国は祝日で休場(感謝祭→金融市場は休場。また感謝祭の翌日も金融市場は短縮取引となる為、本日から連休入りとなる企業や人が多い)"
+ ],
+ "events": [
+  {
+   "id": "2026-11-26-09:30-0",
+   "time": "09:30",
+   "at": "2026-11-26T09:30:00+09:00",
+   "country": "豪",
+   "currency": "AUD",
+   "flag": "オーストラリア",
+   "title": "豪)第3四半期民間設備投資",
+   "rank": "○",
+   "emphasis": 1,
+   "kind": "indicator",
+   "bg": null,
+   "values": [
+    {
+     "forecast": "+4.3%",
+     "previous": "-3.6%"
+    }
+   ],
+   "children": [],
+   "links": [
+    {
+     "pair": "豪ドル円",
+     "url": "https://audjpy.fxrec.com/cat828/"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-26-10:00-1",
+   "time": "10:00",
+   "at": "2026-11-26T10:00:00+09:00",
+   "country": "日",
+   "currency": "JPY",
+   "flag": "日本",
+   "title": "日)田村日銀審議委員の発言(あいさつ)",
+   "rank": "◎",
+   "emphasis": 2,
+   "kind": "speech",
+   "bg": "yellow",
+   "values": [],
+   "children": [],
+   "links": [],
+   "memo": "要人発言"
+  },
+  {
+   "id": "2026-11-26-14:00-2",
+   "time": "14:00",
+   "at": "2026-11-26T14:00:00+09:00",
+   "country": "日",
+   "currency": "JPY",
+   "flag": "日本",
+   "title": "日)景気先行CI指数【改定値】",
+   "rank": "×",
+   "emphasis": 0,
+   "kind": "indicator",
+   "bg": null,
+   "values": [
+    {
+     "forecast": "116.4",
+     "previous": "116.4"
+    }
+   ],
+   "children": [
+    {
+     "title": "景気一致CI指数【改定値】",
+     "forecast": "-",
+     "previous": "119.5"
+    }
+   ],
+   "links": [],
+   "prevMove": "-1.1pips",
+   "mkCode": "JP-LIF"
+  },
+  {
+   "id": "2026-11-26-14:00-3",
+   "time": "14:00",
+   "at": "2026-11-26T14:00:00+09:00",
+   "country": "日",
+   "currency": "JPY",
+   "flag": null,
+   "title": "日)田村日銀審議委員の発言(記者会見)",
+   "rank": "◎",
+   "emphasis": 2,
+   "kind": "speech",
+   "bg": "yellow",
+   "values": [
+    {
+     "forecast": "未定",
+     "previous": ""
+    }
+   ],
+   "children": [],
+   "links": []
+  },
+  {
+   "id": "2026-11-26-16:00-4",
+   "time": "16:00",
+   "at": "2026-11-26T16:00:00+09:00",
+   "country": "独",
+   "currency": "EUR",
+   "flag": "ドイツ",
+   "title": "独)GFK消費者信頼感調査",
+   "rank": "×",
+   "emphasis": 0,
+   "kind": "indicator",
+   "bg": null,
+   "values": [
+    {
+     "forecast": "-30.0",
+     "previous": "-30.8"
+    }
+   ],
+   "children": [],
+   "links": [],
+   "prevMove": "+5.4pips",
+   "mkCode": "DE-GFK"
+  },
+  {
+   "id": "2026-11-26-16:45-5",
+   "time": "16:45",
+   "at": "2026-11-26T16:45:00+09:00",
+   "country": "仏",
+   "currency": "EUR",
+   "flag": "フランス",
+   "title": "仏)生産者物価指数",
+   "rank": "△",
+   "emphasis": 0,
+   "kind": "indicator",
+   "bg": null,
+   "values": [
+    {
+     "forecast": "-",
+     "previous": "+1.7%"
+    },
+    {
+     "forecast": "-",
+     "previous": "+6.8%"
+    }
+   ],
+   "children": [],
+   "links": [],
+   "labels": [
+    "前月比",
+    "前年比"
+   ]
+  },
+  {
+   "id": "2026-11-26-19:30-6",
+   "time": "19:30",
+   "at": "2026-11-26T19:30:00+09:00",
+   "country": "英",
+   "currency": "GBP",
+   "flag": "英国",
+   "title": "英)BOE金融安定報告書公表",
+   "rank": "◎",
+   "emphasis": 1,
+   "kind": "policy",
+   "bg": "orange",
+   "values": [
+    {
+     "forecast": "-",
+     "previous": "-"
+    }
+   ],
+   "children": [],
+   "links": [
+    {
+     "pair": "ポンドドル",
+     "url": "http://gbpusd.fxrec.com/boe_5/"
+    },
+    {
+     "pair": "ポンド円",
+     "url": "http://gbpjpy.fxrec.com/boe_5/"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-26-21:30-7",
+   "time": "21:30",
+   "at": "2026-11-26T21:30:00+09:00",
+   "country": "欧",
+   "currency": "EUR",
+   "flag": "ユーロ圏",
+   "title": "欧)ECB理事会議事要旨公表(10月28日・29日開催分)",
+   "rank": "○",
+   "emphasis": 1,
+   "kind": "policy",
+   "bg": "orange",
+   "values": [
+    {
+     "forecast": "-",
+     "previous": "-"
+    }
+   ],
+   "children": [],
+   "links": [
+    {
+     "pair": "ユーロドル",
+     "url": "https://fxrec.com/ecb_6/"
+    },
+    {
+     "pair": "ユーロ円",
+     "url": "https://eurjpy.fxrec.com/ecb_6/"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-26-21:30-8",
+   "time": "21:30",
+   "at": "2026-11-26T21:30:00+09:00",
+   "country": "米",
+   "currency": "USD",
+   "flag": null,
+   "title": "米)注目度の高い経済指標の発表はない",
+   "rank": null,
+   "emphasis": 2,
+   "kind": "indicator",
+   "bg": "pink",
+   "values": [
+    {
+     "forecast": "-",
+     "previous": ""
+    }
+   ],
+   "children": [],
+   "links": []
+  },
+  {
+   "id": "2026-11-26-30:00-9",
+   "time": "30:00",
+   "at": "2026-11-27T06:00:00+09:00",
+   "country": "NZ",
+   "currency": "NZD",
+   "flag": "ニュージーランド",
+   "title": "NZ)ANZ消費者信頼感指数",
+   "rank": "×",
+   "emphasis": 0,
+   "kind": "indicator",
+   "bg": null,
+   "values": [
+    {
+     "forecast": "-",
+     "previous": "96.2"
+    }
+   ],
+   "children": [],
+   "links": []
+  }
+ ],
+ "resultsUpdated": "2026-11-24T00:21:21.660Z"
+}

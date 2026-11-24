@@ -1,0 +1,463 @@
+{
+ "date": "2026-11-25",
+ "source": "hitsujikai",
+ "sourceUrl": "https://kissfx.com/article/fxdays20261125.html",
+ "fetched": "2026-11-24T00:21:21.625Z",
+ "notes": [
+  "-"
+ ],
+ "events": [
+  {
+   "id": "2026-11-25-09:30-0",
+   "time": "09:30",
+   "at": "2026-11-25T09:30:00+09:00",
+   "country": "豪",
+   "currency": "AUD",
+   "flag": "オーストラリア",
+   "title": "豪)消費者物価指数",
+   "rank": "◎",
+   "emphasis": 2,
+   "kind": "indicator",
+   "bg": null,
+   "values": [
+    {
+     "forecast": "+4.8%",
+     "previous": "+4.3%"
+    }
+   ],
+   "children": [],
+   "links": [
+    {
+     "pair": "豪ドル円",
+     "url": "https://audjpy.fxrec.com/cat789/"
+    }
+   ],
+   "prevMove": "-7.1pips",
+   "mkCode": "AU-CPIM"
+  },
+  {
+   "id": "2026-11-25-12:35-1",
+   "time": "12:35",
+   "at": "2026-11-25T12:35:00+09:00",
+   "country": "日",
+   "currency": "JPY",
+   "flag": "日本",
+   "title": "日)40年利付国債入札",
+   "rank": "◎",
+   "emphasis": 2,
+   "kind": "auction",
+   "bg": null,
+   "values": [],
+   "children": [],
+   "links": [],
+   "memo": "-"
+  },
+  {
+   "id": "2026-11-25-15:00-2",
+   "time": "15:00",
+   "at": "2026-11-25T15:00:00+09:00",
+   "country": "日",
+   "currency": "JPY",
+   "flag": "日本",
+   "title": "日)工作機械受注",
+   "rank": "×",
+   "emphasis": 0,
+   "kind": "indicator",
+   "bg": null,
+   "values": [
+    {
+     "forecast": "-",
+     "previous": "+42.5%"
+    }
+   ],
+   "children": [],
+   "links": []
+  },
+  {
+   "id": "2026-11-25-16:00-3",
+   "time": "16:00",
+   "at": "2026-11-25T16:00:00+09:00",
+   "country": "独",
+   "currency": "EUR",
+   "flag": "ドイツ",
+   "title": "独)第3四半期GDP【改定値】",
+   "rank": "△",
+   "emphasis": 0,
+   "kind": "indicator",
+   "bg": null,
+   "values": [
+    {
+     "forecast": "+0.2%",
+     "previous": "+0.2%"
+    },
+    {
+     "forecast": "+1.3%",
+     "previous": "+1.3%"
+    }
+   ],
+   "children": [],
+   "links": [],
+   "labels": [
+    "前期比",
+    "前年比"
+   ],
+   "prevMove": "-2.8pips",
+   "mkCode": "DE-GDPF"
+  },
+  {
+   "id": "2026-11-25-16:45-4",
+   "time": "16:45",
+   "at": "2026-11-25T16:45:00+09:00",
+   "country": "仏",
+   "currency": "EUR",
+   "flag": "フランス",
+   "title": "仏)消費者信頼感指数",
+   "rank": "△",
+   "emphasis": 0,
+   "kind": "indicator",
+   "bg": null,
+   "values": [
+    {
+     "forecast": "81",
+     "previous": "80"
+    }
+   ],
+   "children": [],
+   "links": []
+  },
+  {
+   "id": "2026-11-25-21:00-5",
+   "time": "21:00",
+   "at": "2026-11-25T21:00:00+09:00",
+   "country": "米",
+   "currency": "USD",
+   "flag": "米国",
+   "title": "米)MBA住宅ローン申請指数",
+   "rank": "C",
+   "emphasis": 0,
+   "kind": "indicator",
+   "bg": "pink",
+   "values": [
+    {
+     "forecast": "-",
+     "previous": "-2.3%"
+    }
+   ],
+   "children": [],
+   "links": [],
+   "prevMove": "-2.8pips",
+   "mkCode": "US-WMAS"
+  },
+  {
+   "id": "2026-11-25-22:30-6",
+   "time": "22:30",
+   "at": "2026-11-25T22:30:00+09:00",
+   "country": "米",
+   "currency": "USD",
+   "flag": "米国",
+   "title": "米)新規失業保険申請件数",
+   "rank": "AA",
+   "emphasis": 2,
+   "kind": "indicator",
+   "bg": "pink",
+   "values": [
+    {
+     "forecast": "20.0万件",
+     "previous": "20.3万件"
+    }
+   ],
+   "children": [],
+   "links": [
+    {
+     "pair": "ユーロドル",
+     "url": "https://fxrec.com/cat42/"
+    },
+    {
+     "pair": "ドル円",
+     "url": "https://usdjpy.fxrec.com/cat135/"
+    }
+   ],
+   "mkCode": "US-IC"
+  },
+  {
+   "id": "2026-11-25-22:30-7",
+   "time": "22:30",
+   "at": "2026-11-25T22:30:00+09:00",
+   "country": "米",
+   "currency": "USD",
+   "flag": "米国",
+   "title": "米)個人所得",
+   "rank": "S",
+   "emphasis": 1,
+   "kind": "indicator",
+   "bg": "pink",
+   "values": [
+    {
+     "forecast": "+0.3%",
+     "previous": "+0.2%"
+    },
+    {
+     "forecast": "+3.2%",
+     "previous": "+3.1%"
+    }
+   ],
+   "children": [
+    {
+     "title": "個人支出",
+     "forecast": "+0.4%",
+     "previous": "+0.5%"
+    },
+    {
+     "title": "PCEデフレーター",
+     "forecast": "+3.8%",
+     "previous": "+3.6%"
+    },
+    {
+     "title": "PCEコア・デフレーター",
+     "forecast": "+0.3%",
+     "previous": "+0.3%"
+    }
+   ],
+   "links": [
+    {
+     "pair": "ユーロドル",
+     "url": "https://fxrec.com/cat21/"
+    },
+    {
+     "pair": "ドル円",
+     "url": "https://usdjpy.fxrec.com/cat92/"
+    }
+   ],
+   "prevMove": "-11.4pips",
+   "mkCode": "US-PE"
+  },
+  {
+   "id": "2026-11-25-22:30-8",
+   "time": "22:30",
+   "at": "2026-11-25T22:30:00+09:00",
+   "country": "米",
+   "currency": "USD",
+   "flag": "米国",
+   "title": "米)第3四半期GDP【改定値】",
+   "rank": "AA",
+   "emphasis": 2,
+   "kind": "indicator",
+   "bg": "pink",
+   "values": [
+    {
+     "forecast": "+3.5%",
+     "previous": "+3.4%"
+    }
+   ],
+   "children": [
+    {
+     "title": "個人消費【改定値】",
+     "forecast": "+3.9%",
+     "previous": "+3.8%"
+    },
+    {
+     "title": "GDPデフレーター【改定値】",
+     "forecast": "+2.3%",
+     "previous": "+2.3%"
+    },
+    {
+     "title": "コアPCEデフレーター【改定値】",
+     "forecast": "+2.5%",
+     "previous": "+2.5%"
+    }
+   ],
+   "links": [
+    {
+     "pair": "ユーロドル",
+     "url": "https://fxrec.com/gdp/"
+    },
+    {
+     "pair": "ドル円",
+     "url": "https://usdjpy.fxrec.com/gdp/"
+    }
+   ],
+   "prevMove": "+19.1pips",
+   "mkCode": "US-GDPS"
+  },
+  {
+   "id": "2026-11-25-22:30-9",
+   "time": "22:30",
+   "at": "2026-11-25T22:30:00+09:00",
+   "country": "米",
+   "currency": "USD",
+   "flag": "米国",
+   "title": "米)耐久財受注",
+   "rank": "A",
+   "emphasis": 1,
+   "kind": "indicator",
+   "bg": "pink",
+   "values": [
+    {
+     "forecast": "+0.5%",
+     "previous": "+1.8%"
+    }
+   ],
+   "children": [
+    {
+     "title": "耐久財受注【除輸送用機器】",
+     "forecast": "+0.5%",
+     "previous": "+0.5%"
+    }
+   ],
+   "links": [
+    {
+     "pair": "ユーロドル",
+     "url": "https://fxrec.com/cat30/"
+    },
+    {
+     "pair": "ドル円",
+     "url": "https://usdjpy.fxrec.com/cat86/"
+    }
+   ],
+   "prevMove": "+8.8pips",
+   "mkCode": "US-DGOP"
+  },
+  {
+   "id": "2026-11-25-24:00-10",
+   "time": "24:00",
+   "at": "2026-11-26T00:00:00+09:00",
+   "country": "米",
+   "currency": "USD",
+   "flag": "米国",
+   "title": "米)新築住宅販売件数",
+   "rank": "A",
+   "emphasis": 1,
+   "kind": "indicator",
+   "bg": "pink",
+   "values": [
+    {
+     "forecast": "64.5万件",
+     "previous": "67.6万件"
+    }
+   ],
+   "children": [],
+   "links": [
+    {
+     "pair": "ユーロドル",
+     "url": "https://fxrec.com/cat31/"
+    },
+    {
+     "pair": "ドル円",
+     "url": "https://usdjpy.fxrec.com/cat87/"
+    }
+   ],
+   "prevMove": "-0.2pips",
+   "mkCode": "US-NHS"
+  },
+  {
+   "id": "2026-11-25-24:30-11",
+   "time": "24:30",
+   "at": "2026-11-26T00:30:00+09:00",
+   "country": "米",
+   "currency": "USD",
+   "flag": "米国",
+   "title": "米)週間原油在庫",
+   "rank": "BB",
+   "emphasis": 1,
+   "kind": "indicator",
+   "bg": "pink",
+   "values": [
+    {
+     "forecast": "-",
+     "previous": "+338.0万"
+    }
+   ],
+   "children": [],
+   "links": [
+    {
+     "pair": "ユーロドル",
+     "url": "https://fxrec.com/cat132/"
+    },
+    {
+     "pair": "ドル円",
+     "url": "https://usdjpy.fxrec.com/cat138/"
+    }
+   ],
+   "prevMove": "-3.8pips",
+   "mkCode": "US-COI"
+  },
+  {
+   "id": "2026-11-25-26:00-12",
+   "time": "26:00",
+   "at": "2026-11-26T02:00:00+09:00",
+   "country": "米",
+   "currency": "USD",
+   "flag": "米国",
+   "title": "米)週間天然ガス貯蔵量",
+   "rank": "B",
+   "emphasis": 0,
+   "kind": "indicator",
+   "bg": "pink",
+   "values": [
+    {
+     "forecast": "-",
+     "previous": "+20"
+    }
+   ],
+   "children": [],
+   "links": []
+  },
+  {
+   "id": "2026-11-25-27:00-13",
+   "time": "27:00",
+   "at": "2026-11-26T03:00:00+09:00",
+   "country": "米",
+   "currency": "USD",
+   "flag": "米国",
+   "title": "米)7年債入札",
+   "rank": "A",
+   "emphasis": 1,
+   "kind": "auction",
+   "bg": "pink",
+   "values": [],
+   "children": [],
+   "links": [
+    {
+     "pair": "ユーロドル",
+     "url": "https://fxrec.com/cat232/"
+    },
+    {
+     "pair": "ドル円",
+     "url": "https://usdjpy.fxrec.com/cat231/"
+    }
+   ],
+   "memo": "440億ドル"
+  },
+  {
+   "id": "2026-11-25-28:00-14",
+   "time": "28:00",
+   "at": "2026-11-26T04:00:00+09:00",
+   "country": "米",
+   "currency": "USD",
+   "flag": "米国",
+   "title": "米)地区連銀経済報告(ベージュブック)",
+   "rank": "B",
+   "emphasis": 1,
+   "kind": "indicator",
+   "bg": "pink",
+   "values": [
+    {
+     "forecast": "-",
+     "previous": "-"
+    }
+   ],
+   "children": [],
+   "links": [
+    {
+     "pair": "ユーロドル",
+     "url": "https://fxrec.com/cat35/"
+    },
+    {
+     "pair": "ドル円",
+     "url": "https://usdjpy.fxrec.com/cat85/"
+    }
+   ]
+  }
+ ],
+ "resultsUpdated": "2026-11-24T00:21:21.628Z"
+}

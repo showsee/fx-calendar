@@ -1,0 +1,272 @@
+{
+ "date": "2026-11-27",
+ "source": "hitsujikai",
+ "sourceUrl": "https://kissfx.com/article/fxdays20261127.html",
+ "fetched": "2026-11-24T00:21:21.688Z",
+ "notes": [
+  "米国は感謝祭翌日(感謝祭翌日=ブラックフライデー→米国の金融市場は短縮取引。祝日ではないが連休となる企業や人が多い)",
+  "月末間近(週明け30日が11月月末での最後の営業日)",
+  "週末"
+ ],
+ "events": [
+  {
+   "id": "2026-11-27-06:00-0",
+   "time": "06:00",
+   "at": "2026-11-27T06:00:00+09:00",
+   "country": "NZ",
+   "currency": "NZD",
+   "flag": "ニュージーランド",
+   "title": "NZ)ANZ消費者信頼感指数",
+   "rank": "×",
+   "emphasis": 0,
+   "kind": "indicator",
+   "bg": null,
+   "values": [
+    {
+     "forecast": "-",
+     "previous": "96.2"
+    }
+   ],
+   "children": [],
+   "links": []
+  },
+  {
+   "id": "2026-11-27-08:30-1",
+   "time": "08:30",
+   "at": "2026-11-27T08:30:00+09:00",
+   "country": "日",
+   "currency": "JPY",
+   "flag": "日本",
+   "title": "日)東京都区部消費者物価指数",
+   "rank": "◎",
+   "emphasis": 2,
+   "kind": "indicator",
+   "bg": null,
+   "values": [
+    {
+     "forecast": "+3.1%",
+     "previous": "+2.8%"
+    }
+   ],
+   "children": [
+    {
+     "title": "東京都区部消費者物価指数【除生鮮】",
+     "forecast": "+2.9%",
+     "previous": "+2.6%"
+    }
+   ],
+   "links": [],
+   "prevMove": "+1.7pips",
+   "mkCode": "JP-TCPI"
+  },
+  {
+   "id": "2026-11-27-16:45-2",
+   "time": "16:45",
+   "at": "2026-11-27T16:45:00+09:00",
+   "country": "仏",
+   "currency": "EUR",
+   "flag": "フランス",
+   "title": "仏)第3四半期GDP【改定値】",
+   "rank": "△",
+   "emphasis": 0,
+   "kind": "indicator",
+   "bg": null,
+   "values": [
+    {
+     "forecast": "-0.1%",
+     "previous": "-0.1%"
+    },
+    {
+     "forecast": "-0.1%",
+     "previous": "-0.1%"
+    }
+   ],
+   "children": [],
+   "links": [],
+   "labels": [
+    "前期比",
+    "前年比"
+   ]
+  },
+  {
+   "id": "2026-11-27-16:45-3",
+   "time": "16:45",
+   "at": "2026-11-27T16:45:00+09:00",
+   "country": "仏",
+   "currency": "EUR",
+   "flag": "フランス",
+   "title": "仏)消費者物価指数【速報値】",
+   "rank": "△",
+   "emphasis": 0,
+   "kind": "indicator",
+   "bg": null,
+   "values": [
+    {
+     "forecast": "-0.1%",
+     "previous": "+0.4%"
+    }
+   ],
+   "children": [],
+   "links": [],
+   "labels": [
+    "前月比",
+    "前年比"
+   ]
+  },
+  {
+   "id": "2026-11-27-16:45-4",
+   "time": "16:45",
+   "at": "2026-11-27T16:45:00+09:00",
+   "country": "仏",
+   "currency": "EUR",
+   "flag": null,
+   "title": "仏)消費者支出",
+   "rank": "×",
+   "emphasis": 0,
+   "kind": "indicator",
+   "bg": null,
+   "values": [
+    {
+     "forecast": "+3.4%",
+     "previous": "+3.4%"
+    },
+    {
+     "forecast": "-",
+     "previous": "-0.4%"
+    }
+   ],
+   "children": [],
+   "links": [],
+   "labels": [
+    "前月比",
+    "前年比"
+   ]
+  },
+  {
+   "id": "2026-11-27-17:55-5",
+   "time": "17:55",
+   "at": "2026-11-27T17:55:00+09:00",
+   "country": "独",
+   "currency": "EUR",
+   "flag": "ドイツ",
+   "title": "独)失業率",
+   "rank": "△",
+   "emphasis": 0,
+   "kind": "indicator",
+   "bg": null,
+   "values": [
+    {
+     "forecast": "6.4%",
+     "previous": "6.4%"
+    }
+   ],
+   "children": [
+    {
+     "title": "失業者数",
+     "forecast": "+0.50万人",
+     "previous": "+0.40万人"
+    }
+   ],
+   "links": []
+  },
+  {
+   "id": "2026-11-27-21:40-6",
+   "time": "21:40",
+   "at": "2026-11-27T21:40:00+09:00",
+   "country": "独",
+   "currency": "EUR",
+   "flag": "ドイツ",
+   "title": "独)ナーゲル独連銀総裁の発言",
+   "rank": "△",
+   "emphasis": 0,
+   "kind": "speech",
+   "bg": "yellow",
+   "values": [],
+   "children": [],
+   "links": [],
+   "memo": "要人発言"
+  },
+  {
+   "id": "2026-11-27-22:30-7",
+   "time": "22:30",
+   "at": "2026-11-27T22:30:00+09:00",
+   "country": "加",
+   "currency": "CAD",
+   "flag": "カナダ",
+   "title": "加)第3四半期経常収支",
+   "rank": "○",
+   "emphasis": 1,
+   "kind": "indicator",
+   "bg": null,
+   "values": [
+    {
+     "forecast": "+99.0億",
+     "previous": "+88.4億"
+    }
+   ],
+   "children": [],
+   "links": [
+    {
+     "pair": "カナダ円",
+     "url": "https://cadjpy.fxrec.com/cat1167/"
+    }
+   ],
+   "prevMove": "+2.2pips",
+   "mkCode": "CA-BOP"
+  },
+  {
+   "id": "2026-11-27-22:30-8",
+   "time": "22:30",
+   "at": "2026-11-27T22:30:00+09:00",
+   "country": "米",
+   "currency": "USD",
+   "flag": "米国",
+   "title": "米)卸売在庫【速報値】",
+   "rank": "C",
+   "emphasis": 0,
+   "kind": "indicator",
+   "bg": "pink",
+   "values": [
+    {
+     "forecast": "+0.4%",
+     "previous": "+0.6%"
+    }
+   ],
+   "children": [],
+   "links": [
+    {
+     "pair": "ユーロドル",
+     "url": "https://fxrec.com/cat41/"
+    },
+    {
+     "pair": "ドル円",
+     "url": "https://usdjpy.fxrec.com/cat1945/"
+    }
+   ],
+   "prevMove": "-0.7pips",
+   "mkCode": "US-WSIP"
+  },
+  {
+   "id": "2026-11-27-22:30-9",
+   "time": "22:30",
+   "at": "2026-11-27T22:30:00+09:00",
+   "country": "米",
+   "currency": "USD",
+   "flag": null,
+   "title": "米)注目度の高い経済指標の発表はない",
+   "rank": null,
+   "emphasis": 2,
+   "kind": "indicator",
+   "bg": "pink",
+   "values": [
+    {
+     "forecast": "-",
+     "previous": ""
+    }
+   ],
+   "children": [],
+   "links": []
+  }
+ ],
+ "resultsUpdated": "2026-11-24T00:21:21.688Z"
+}

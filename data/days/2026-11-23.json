@@ -1,0 +1,387 @@
+{
+ "date": "2026-11-23",
+ "source": "hitsujikai",
+ "sourceUrl": "https://kissfx.com/article/fxdays20261123.html",
+ "fetched": "2026-11-24T00:16:30.193Z",
+ "notes": [
+  "日本は祝日で休場(日経先物及びOPの祝日取引→なし)",
+  "週明け"
+ ],
+ "events": [
+  {
+   "id": "2026-11-23-06:45-0",
+   "time": "06:45",
+   "at": "2026-11-23T06:45:00+09:00",
+   "country": "NZ",
+   "currency": "NZD",
+   "flag": "ニュージーランド",
+   "title": "NZ)第3四半期小売売上高",
+   "rank": "◎",
+   "emphasis": 1,
+   "kind": "indicator",
+   "bg": null,
+   "values": [
+    {
+     "forecast": "+0.5%",
+     "previous": "-0.5%"
+    }
+   ],
+   "children": [],
+   "links": []
+  },
+  {
+   "id": "2026-11-23-17:15-1",
+   "time": "17:15",
+   "at": "2026-11-23T17:15:00+09:00",
+   "country": "仏",
+   "currency": "EUR",
+   "flag": "フランス",
+   "title": "仏)製造業PMI【速報値】",
+   "rank": "○",
+   "emphasis": 0,
+   "kind": "indicator",
+   "bg": null,
+   "values": [
+    {
+     "forecast": "49.8",
+     "previous": "49.5"
+    }
+   ],
+   "children": [],
+   "links": []
+  },
+  {
+   "id": "2026-11-23-17:15-2",
+   "time": "17:15",
+   "at": "2026-11-23T17:15:00+09:00",
+   "country": "仏",
+   "currency": "EUR",
+   "flag": "フランス",
+   "title": "仏)非製造業PMI【速報値】",
+   "rank": "○",
+   "emphasis": 0,
+   "kind": "indicator",
+   "bg": null,
+   "values": [
+    {
+     "forecast": "47.3",
+     "previous": "46.2"
+    }
+   ],
+   "children": [],
+   "links": []
+  },
+  {
+   "id": "2026-11-23-17:30-3",
+   "time": "17:30",
+   "at": "2026-11-23T17:30:00+09:00",
+   "country": "独",
+   "currency": "EUR",
+   "flag": "ドイツ",
+   "title": "独)製造業PMI【速報値】",
+   "rank": "◎",
+   "emphasis": 1,
+   "kind": "indicator",
+   "bg": null,
+   "values": [
+    {
+     "forecast": "54.1",
+     "previous": "54.2"
+    }
+   ],
+   "children": [],
+   "links": [
+    {
+     "pair": "ユーロドル",
+     "url": "https://fxrec.com/pmi/"
+    },
+    {
+     "pair": "ユーロ円",
+     "url": "https://eurjpy.fxrec.com/pmi_3/"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-23-17:30-4",
+   "time": "17:30",
+   "at": "2026-11-23T17:30:00+09:00",
+   "country": "独",
+   "currency": "EUR",
+   "flag": "ドイツ",
+   "title": "独)非製造業PMI【速報値】",
+   "rank": "○",
+   "emphasis": 0,
+   "kind": "indicator",
+   "bg": null,
+   "values": [
+    {
+     "forecast": "52.3",
+     "previous": "52.5"
+    }
+   ],
+   "children": [],
+   "links": [
+    {
+     "pair": "ユーロドル",
+     "url": "https://fxrec.com/pmi_1/"
+    },
+    {
+     "pair": "ユーロ円",
+     "url": "https://eurjpy.fxrec.com/pmi_2/"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-23-18:00-5",
+   "time": "18:00",
+   "at": "2026-11-23T18:00:00+09:00",
+   "country": "欧",
+   "currency": "EUR",
+   "flag": "ユーロ圏",
+   "title": "欧)製造業PMI【速報値】",
+   "rank": "◎",
+   "emphasis": 1,
+   "kind": "indicator",
+   "bg": null,
+   "values": [
+    {
+     "forecast": "52.7",
+     "previous": "52.7"
+    }
+   ],
+   "children": [],
+   "links": [
+    {
+     "pair": "ユーロドル",
+     "url": "https://fxrec.com/pmi_2/"
+    },
+    {
+     "pair": "ユーロ円",
+     "url": "https://eurjpy.fxrec.com/pmi/"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-23-18:00-6",
+   "time": "18:00",
+   "at": "2026-11-23T18:00:00+09:00",
+   "country": "欧",
+   "currency": "EUR",
+   "flag": "ユーロ圏",
+   "title": "欧)非製造業PMI【速報値】",
+   "rank": "○",
+   "emphasis": 0,
+   "kind": "indicator",
+   "bg": null,
+   "values": [
+    {
+     "forecast": "51.9",
+     "previous": "51.4"
+    }
+   ],
+   "children": [],
+   "links": [
+    {
+     "pair": "ユーロドル",
+     "url": "https://fxrec.com/pmi_3/"
+    },
+    {
+     "pair": "ユーロ円",
+     "url": "https://eurjpy.fxrec.com/pmi_1/"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-23-18:30-7",
+   "time": "18:30",
+   "at": "2026-11-23T18:30:00+09:00",
+   "country": "英",
+   "currency": "GBP",
+   "flag": "英国",
+   "title": "英)製造業PMI【速報値】",
+   "rank": "◎",
+   "emphasis": 1,
+   "kind": "indicator",
+   "bg": null,
+   "values": [
+    {
+     "forecast": "53.0",
+     "previous": "52.8"
+    }
+   ],
+   "children": [],
+   "links": [
+    {
+     "pair": "ポンドドル",
+     "url": "https://gbpusd.fxrec.com/pmi_2/"
+    },
+    {
+     "pair": "ポンド円",
+     "url": "https://gbpjpy.fxrec.com/pmi/"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-23-18:30-8",
+   "time": "18:30",
+   "at": "2026-11-23T18:30:00+09:00",
+   "country": "英",
+   "currency": "GBP",
+   "flag": "英国",
+   "title": "英)非製造業PMI【速報値】",
+   "rank": "◎",
+   "emphasis": 1,
+   "kind": "indicator",
+   "bg": null,
+   "values": [
+    {
+     "forecast": "53.0",
+     "previous": "52.8"
+    }
+   ],
+   "children": [],
+   "links": [
+    {
+     "pair": "ポンドドル",
+     "url": "https://gbpusd.fxrec.com/pmi/"
+    },
+    {
+     "pair": "ポンド円",
+     "url": "https://gbpjpy.fxrec.com/pmi_1/"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-23-22:00-9",
+   "time": "22:00",
+   "at": "2026-11-23T22:00:00+09:00",
+   "country": "英",
+   "currency": "GBP",
+   "flag": "英国",
+   "title": "英)ピルMPC理事の発言",
+   "rank": "△",
+   "emphasis": 0,
+   "kind": "speech",
+   "bg": "yellow",
+   "values": [],
+   "children": [],
+   "links": [],
+   "memo": "要人発言"
+  },
+  {
+   "id": "2026-11-23-22:30-10",
+   "time": "22:30",
+   "at": "2026-11-23T22:30:00+09:00",
+   "country": "米",
+   "currency": "USD",
+   "flag": "米国",
+   "title": "米)シカゴ連銀全米活動指数",
+   "rank": "C",
+   "emphasis": 0,
+   "kind": "indicator",
+   "bg": "pink",
+   "values": [
+    {
+     "forecast": "+0.20",
+     "previous": "+0.07"
+    }
+   ],
+   "children": [],
+   "links": []
+  },
+  {
+   "id": "2026-11-23-23:45-11",
+   "time": "23:45",
+   "at": "2026-11-23T23:45:00+09:00",
+   "country": "米",
+   "currency": "USD",
+   "flag": "米国",
+   "title": "米)製造業PMI【速報値】",
+   "rank": "AA",
+   "emphasis": 1,
+   "kind": "indicator",
+   "bg": "pink",
+   "values": [
+    {
+     "forecast": "54.5",
+     "previous": "54.9"
+    }
+   ],
+   "children": [],
+   "links": [
+    {
+     "pair": "ユーロドル",
+     "url": "https://fxrec.com/pmi1/"
+    },
+    {
+     "pair": "ドル円",
+     "url": "https://usdjpy.fxrec.com/pmi/"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-23-23:45-12",
+   "time": "23:45",
+   "at": "2026-11-23T23:45:00+09:00",
+   "country": "米",
+   "currency": "USD",
+   "flag": "米国",
+   "title": "米)非製造業PMI【速報値】",
+   "rank": "A",
+   "emphasis": 0,
+   "kind": "indicator",
+   "bg": "pink",
+   "values": [
+    {
+     "forecast": "55.6",
+     "previous": "56.1"
+    }
+   ],
+   "children": [],
+   "links": []
+  },
+  {
+   "id": "2026-11-23-27:00-13",
+   "time": "27:00",
+   "at": "2026-11-24T03:00:00+09:00",
+   "country": "米",
+   "currency": "USD",
+   "flag": "米国",
+   "title": "米)2年債入札",
+   "rank": "A",
+   "emphasis": 0,
+   "kind": "auction",
+   "bg": "pink",
+   "values": [],
+   "children": [],
+   "links": [
+    {
+     "pair": "ユーロドル",
+     "url": "https://fxrec.com/cat232/"
+    },
+    {
+     "pair": "ドル円",
+     "url": "https://usdjpy.fxrec.com/cat231/"
+    }
+   ],
+   "memo": "690億ドル"
+  },
+  {
+   "id": "2026-11-23-30:00-14",
+   "time": "30:00",
+   "at": "2026-11-24T06:00:00+09:00",
+   "country": "米",
+   "currency": "USD",
+   "flag": "米国",
+   "title": "米)ウィリアムズ：NY連銀総裁の発言(投票権あり)",
+   "rank": "AA",
+   "emphasis": 1,
+   "kind": "speech",
+   "bg": "yellow",
+   "values": [],
+   "children": [],
+   "links": [],
+   "memo": "要人発言"
+  }
+ ]
+}
