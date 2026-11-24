@@ -191,7 +191,7 @@ export function parseMinkabu(html) {
 }
 
 // みんかぶの名前 "米国・消費者信頼感指数 11月 [前月比]" → 比較用の本体
-const norm = (s) => s.normalize("NFKC").replace(/^[^・)）]{1,6}[・)）]/, "").replace(/\d+月|第\d四半期|\[.*?\]|【.*?】|\(.*?\)|（.*?）|\s/g, "")
+const norm = (s) => s.normalize("NFKC").replace(/非製造業/g, "サービス業").replace(/^[^・)）]{1,6}[・)）]/, "").replace(/\d+月|第\d四半期|\[.*?\]|【.*?】|\(.*?\)|（.*?）|\s/g, "")
   .replace(/S&P\/?|S＆P\/?|・/g, "").toLowerCase();
 function similarity(a, b) {
   a = norm(a); b = norm(b);
@@ -263,7 +263,7 @@ export function mergeResults(day, mk) {
     // 内訳(↑・個人支出 など): 同時刻・同じ国の行から、名前と前回値で探す
     const t = new Date(ev.at).getTime();
     const same = mk.filter((x) => new Date(x.at).getTime() === t && x.country === ev.country);
-    const flat = (s) => s.normalize("NFKC").replace(/【.*?】|[・\s\[\]()（）]/g, "");
+    const flat = (s) => s.normalize("NFKC").replace(/非製造業/g, "サービス業").replace(/【.*?】|[・\s\[\]()（）]/g, "");
     for (const c of ev.children) {
       const scored = same.map((x) => {
         const nm = flat(x.name), ct = flat(c.title);
