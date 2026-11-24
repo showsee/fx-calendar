@@ -39,19 +39,22 @@
    "values": [
     {
      "forecast": "90.5",
-     "previous": "90.2"
+     "previous": "90.2",
+     "actual": "90.6"
     }
    ],
    "children": [
     {
      "title": "IFO現況指数",
      "forecast": "89.1",
-     "previous": "88.8"
+     "previous": "88.8",
+     "actual": "89.4"
     },
     {
      "title": "IFO景気期待指数",
      "forecast": "92.0",
-     "previous": "91.6"
+     "previous": "91.6",
+     "actual": "91.6"
     }
    ],
    "links": [
@@ -269,5 +272,5 @@
    "memo": "700億ドル"
   }
  ],
- "resultsUpdated": "2026-11-24T01:11:34.840Z"
+ "resultsUpdated": "2026-11-24T10:12:28.301Z"
 }
