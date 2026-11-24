@@ -127,7 +127,8 @@
     },
     {
      "forecast": "+2.70%",
-     "previous": "+2.65%"
+     "previous": "+2.65%",
+     "actual": "2.56%"
     }
    ],
    "children": [],
@@ -154,14 +155,16 @@
    "values": [
     {
      "forecast": "+0.2%",
-     "previous": "+0.3%"
+     "previous": "+0.3%",
+     "actual": "0.0%"
     }
    ],
    "children": [
     {
      "title": "第3四半期住宅価格指数",
      "forecast": "-",
-     "previous": "+0.4%"
+     "previous": "+0.4%",
+     "actual": "0.7%"
     }
    ],
    "links": [],
@@ -183,7 +186,8 @@
    "values": [
     {
      "forecast": "92.5",
-     "previous": "91.7"
+     "previous": "91.7",
+     "actual": "103.3"
     }
    ],
    "children": [],
@@ -215,7 +219,8 @@
    "values": [
     {
      "forecast": "-2",
-     "previous": "-2"
+     "previous": "-2",
+     "actual": "+3"
     }
    ],
    "children": [],
@@ -272,5 +277,5 @@
    "memo": "700億ドル"
   }
  ],
- "resultsUpdated": "2026-11-24T10:12:28.301Z"
+ "resultsUpdated": "2026-11-24T20:41:29.754Z"
 }
