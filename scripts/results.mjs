@@ -1,5 +1,5 @@
 // GitHub Actions から定期実行: みんかぶFXの結果を日別データへ書き込む
-import { fetchText, parseMinkabu, mergeResults, dayFromMinkabu, loadDay, saveDay, todayJST, addDays } from "./lib.mjs";
+import { fetchSbi, fetchText, parseMinkabu, mergeResults, dayFromMinkabu, loadDay, saveDay, todayJST, addDays } from "./lib.mjs";
 
 const today = todayJST();
 // 今日以降のページ + 前日から2日分のページ(発表済みの結果を取りこぼさないため)
@@ -10,6 +10,9 @@ const pages = await Promise.all([
 const seen = new Set();
 const mk = pages.flatMap(parseMinkabu).filter((m) => { const k = m.at + m.name; if (seen.has(k)) return false; seen.add(k); return true; });
 console.log(`みんかぶ: ${mk.length}行`);
+let sbi = [];
+try { sbi = await fetchSbi(addDays(today, -1), addDays(today, 5)); } catch (e) { console.warn("SBI取得失敗:", e.message); }
+console.log(`SBI: ${sbi.length}行`);
 for (const ymd of [addDays(today, -1), today, addDays(today, 1), addDays(today, 2), addDays(today, 3), addDays(today, 4)]) {
   let day = loadDay(ymd);
   if (!day) {
@@ -25,5 +28,5 @@ for (const ymd of [addDays(today, -1), today, addDays(today, 1), addDays(today, 
     if (fresh.events.length) { day.events = fresh.events; saveDay(day); }
     continue;
   }
-  if (mergeResults(day, mk)) { saveDay(day); console.log(`${ymd}: 結果を更新`); }
+  if (mergeResults(day, mk, sbi)) { saveDay(day); console.log(`${ymd}: 結果を更新`); }
 }

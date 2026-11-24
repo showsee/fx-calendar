@@ -2,7 +2,7 @@
  "date": "2026-11-25",
  "source": "hitsujikai",
  "sourceUrl": "https://kissfx.com/article/fxdays20261125.html",
- "fetched": "2026-11-24T00:21:21.625Z",
+ "fetched": "2026-11-24T00:48:41.986Z",
  "notes": [
   "-"
  ],
@@ -195,10 +195,6 @@
     {
      "forecast": "+0.3%",
      "previous": "+0.2%"
-    },
-    {
-     "forecast": "+3.2%",
-     "previous": "+3.1%"
     }
    ],
    "children": [
@@ -213,9 +209,18 @@
      "previous": "+3.6%"
     },
     {
-     "title": "PCEコア・デフレーター",
+     "title": "PCEコア・デフレーター(前月比)",
      "forecast": "+0.3%",
-     "previous": "+0.3%"
+     "previous": "+0.3%",
+     "labels": [
+      "前月比",
+      "前年比"
+     ]
+    },
+    {
+     "title": "PCEコア・デフレーター(前年比)",
+     "forecast": "+3.2%",
+     "previous": "+3.1%"
     }
    ],
    "links": [
@@ -459,5 +464,5 @@
    ]
   }
  ],
- "resultsUpdated": "2026-11-24T00:21:21.628Z"
+ "resultsUpdated": "2026-11-24T00:48:41.990Z"
 }

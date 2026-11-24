@@ -47,7 +47,8 @@
    "values": [
     {
      "forecast": "49.8",
-     "previous": "49.5"
+     "previous": "49.5",
+     "actual": "47.9"
     }
    ],
    "children": [],
@@ -68,7 +69,8 @@
    "values": [
     {
      "forecast": "47.3",
-     "previous": "46.2"
+     "previous": "46.2",
+     "actual": "46.6"
     }
    ],
    "children": [],
@@ -304,7 +306,8 @@
    "values": [
     {
      "forecast": "+0.20",
-     "previous": "+0.07"
+     "previous": "+0.07",
+     "actual": "-0.06"
     }
    ],
    "children": [],
@@ -411,5 +414,5 @@
    "memo": "要人発言"
   }
  ],
- "resultsUpdated": "2026-11-24T00:38:23.661Z"
+ "resultsUpdated": "2026-11-24T00:47:45.589Z"
 }

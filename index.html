@@ -31,6 +31,7 @@ h1 small{color:var(--muted);font-weight:400;font-size:11px;margin-left:6px}
 .datenav button:disabled{opacity:.3;cursor:default}
 .datelbl{font-family:var(--mono);font-size:14px;min-width:92px;text-align:center;cursor:pointer}
 .datelbl b{display:block;font-size:10px;font-family:var(--sans);color:var(--accent);font-weight:500;line-height:1}
+.next[hidden]{display:none}
 .next{display:flex;align-items:center;gap:10px;padding:8px 12px;margin-bottom:8px;background:var(--panel);border:1px solid var(--line);border-radius:10px;font-size:13px}
 .next .cd{font-family:var(--mono);font-size:18px;color:var(--accent);font-weight:600;white-space:nowrap}
 .next .nt{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
@@ -125,11 +126,12 @@ footer{margin-top:28px;padding-top:14px;border-top:1px solid var(--line);font-si
   </div>
   時刻は日本時間(24時以降は翌日の早朝)。結果の<span style="color:var(--up)">緑</span>=予想より上、<span style="color:var(--dn)">赤</span>=予想より下(通貨の上げ下げではありません)。<br>
   出典: スケジュール・指標ランク・予想値 = <a id="srclink" href="https://kissfx.com/" target="_blank" rel="noopener">羊飼いのFXブログ</a> /
-  結果・前回発表時の値動き = <a href="https://fx.minkabu.jp/indicators" target="_blank" rel="noopener">みんかぶFX</a> / 内容・影響の解説 = 独自作成。<br>
+  結果 = <a href="https://www.sbifxt.co.jp/market/economic_calendar.html" target="_blank" rel="noopener">SBI FXトレード</a>(発表前後は15秒ごとに取得)・<a href="https://fx.minkabu.jp/indicators" target="_blank" rel="noopener">みんかぶFX</a> / 前回発表時の値動き = みんかぶFX / 内容・影響の解説 = 独自作成。<br>
   個人用の閲覧ページです。投資判断はご自身で行ってください。
 </footer>
 </div>
-<script>
+<script type="module">
+import { parseSbi, sbiUrl, applyRows } from "./scripts/match.mjs";
 const CC={"米":"us","欧":"eu","独":"de","仏":"fr","伊":"it","英":"gb","日":"jp","豪":"au","NZ":"nz","加":"ca","スイス":"ch","瑞":"ch","中":"cn","南ア":"za","トルコ":"tr","メキシコ":"mx"};
 const flagImg=c=>CC[c]?`<img class="fl" src="https://flagcdn.com/w40/${CC[c]}.png" alt="${c}" width="22" height="15" loading="lazy">`:"";
 const CUR={USD:"ドル",EUR:"ユーロ",GBP:"ポンド",JPY:"円",AUD:"豪ドル",NZD:"NZドル",CAD:"カナダドル",CHF:"フラン",CNY:"人民元",ZAR:"ランド",TRY:"リラ",MXN:"ペソ"};
@@ -268,10 +270,33 @@ function tick(){
   el.innerHTML=`<span class="cd">${cd}</span><span class="nt"><span class="lbl">次の発表 ${ev.time}</span>${flagImg(ev.country)} ${esc(ev.title)}${same.length>1?` ほか${same.length-1}件`:""}</span>${rankBadge(ev)}`;
 }
 async function getJSON(u){const r=await fetch(u+(u.includes("?")?"&":"?")+"t="+Math.floor(Date.now()/60000),{cache:"no-store"});if(!r.ok)throw new Error(r.status);return r.json()}
+// ---- SBI FXトレードから結果を直接読む (発表前後は15秒ごと) ----
+let LIVE=[],lastLive=0;
+const addDays=(y,n)=>{const d=new Date(y+"T00:00:00Z");d.setUTCDate(d.getUTCDate()+n);return ymdOf(d)};
+function applyLive(){if(DAY&&LIVE.length)return applyRows(DAY,LIVE);return false}
+function liveWindow(){
+  if(!DAY||cur!==tradingDay())return false;
+  const now=Date.now();
+  return DAY.events.some(e=>e.kind!=="speech"&&e.values.length&&now>new Date(e.at).getTime()-60e3&&now<new Date(e.at).getTime()+45*60e3&&e.values.some(v=>dash(v.actual)));
+}
+async function pollLive(force){
+  if(!DAY||cur!==tradingDay())return;
+  const now=Date.now();
+  if(!force&&now-lastLive<(liveWindow()?15e3:5*60e3))return;
+  lastLive=now;
+  try{
+    const r=await fetch(sbiUrl(addDays(cur,-1),addDays(cur,1)),{cache:"no-store"});
+    if(!r.ok)return;
+    LIVE=parseSbi(await r.json());
+    if(applyLive())render();
+  }catch{}
+}
 async function loadDay(y){
-  cur=y;showPast=false;
+  cur=y;showPast=y<tradingDay(); // 過去の日は最初から全部表示
   try{DAY=await getJSON(`data/days/${y}.json`)}catch{DAY=null}
+  applyLive();
   render();
+  pollLive(true);
 }
 function renderFilters(){
   const F=[["all","すべて"],["imp","重要のみ"],["us","米国"],["speech","要人・金融政策"]];
@@ -289,8 +314,10 @@ function pickDay(){const t=tradingDay();if(INDEX.days.includes(t))return t;retur
   if(INDEX.updated){const d=new Date(new Date(INDEX.updated).getTime()+9*3600e3);$("#upd").textContent=`更新 ${d.getUTCMonth()+1}/${d.getUTCDate()} ${String(d.getUTCHours()).padStart(2,"0")}:${String(d.getUTCMinutes()).padStart(2,"0")}`}
   await loadDay(pickDay());
   setInterval(tick,1000);
+  setInterval(()=>pollLive(false),5e3);
+  document.addEventListener("visibilitychange",()=>{if(!document.hidden)pollLive(true)});
   // 1分ごとに再取得 (結果の反映)
-  setInterval(async()=>{try{const d=await getJSON(`data/days/${cur}.json`);if(JSON.stringify(d)!==JSON.stringify(DAY)){DAY=d;render()}}catch{}},60e3);
+  setInterval(async()=>{try{const d=await getJSON(`data/days/${cur}.json`);applyRows(d,LIVE);if(JSON.stringify(d)!==JSON.stringify(DAY)){DAY=d;render()}}catch{}},60e3);
   let lastTd=tradingDay();setInterval(()=>{const t=tradingDay();if(t!==lastTd){lastTd=t;getJSON("data/index.json").then(x=>{INDEX=x;loadDay(pickDay())}).catch(()=>{})}},60e3);
 })();
 </script>
