@@ -371,7 +371,8 @@
    "values": [
     {
      "forecast": "65.0万件",
-     "previous": "67.6万件"
+     "previous": "67.6万件",
+     "actual": "70.1万件"
     }
    ],
    "children": [],
@@ -403,7 +404,8 @@
    "values": [
     {
      "forecast": "-",
-     "previous": "+338.0万"
+     "previous": "+338.0万",
+     "actual": "110.9万バレル"
     }
    ],
    "children": [],
@@ -498,5 +500,5 @@
    ]
   }
  ],
- "resultsUpdated": "2026-11-25T13:36:52.482Z"
+ "resultsUpdated": "2026-11-25T22:44:26.699Z"
 }
