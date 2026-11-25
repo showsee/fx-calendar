@@ -22,7 +22,8 @@
    "values": [
     {
      "forecast": "+4.8%",
-     "previous": "+4.3%"
+     "previous": "+4.3%",
+     "actual": "+4.9%"
     }
    ],
    "children": [],
@@ -464,5 +465,5 @@
    ]
   }
  ],
- "resultsUpdated": "2026-11-24T17:59:41.513Z"
+ "resultsUpdated": "2026-11-25T03:47:43.884Z"
 }
