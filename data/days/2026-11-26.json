@@ -67,14 +67,16 @@
    "values": [
     {
      "forecast": "116.4",
-     "previous": "116.4"
+     "previous": "116.4",
+     "actual": "116.5"
     }
    ],
    "children": [
     {
      "title": "景気一致CI指数【改定値】",
      "forecast": "-",
-     "previous": "119.5"
+     "previous": "119.5",
+     "actual": "119.5"
     }
    ],
    "links": [],
@@ -117,7 +119,8 @@
    "values": [
     {
      "forecast": "-30.0",
-     "previous": "-30.8"
+     "previous": "-30.8",
+     "actual": "-30.2"
     }
    ],
    "children": [],
@@ -257,5 +260,5 @@
    "links": []
   }
  ],
- "resultsUpdated": "2026-11-26T03:53:26.451Z"
+ "resultsUpdated": "2026-11-26T14:13:22.222Z"
 }
