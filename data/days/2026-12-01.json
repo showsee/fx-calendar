@@ -1,0 +1,170 @@
+{
+ "date": "2026-12-01",
+ "source": "minkabu",
+ "notes": [
+  "羊飼いのランクは未取得(みんかぶの重要度★3以上を表示)"
+ ],
+ "events": [
+  {
+   "id": "2026-12-01-08:30-0",
+   "time": "08:30",
+   "at": "2026-12-01T08:30:00+09:00",
+   "country": "日",
+   "currency": "JPY",
+   "title": "日)雇用統計 10月 [完全失業率]",
+   "rank": null,
+   "mkImportance": 3,
+   "kind": "indicator",
+   "source": "minkabu",
+   "mkCode": "JP-UER",
+   "values": [
+    {
+     "forecast": "2.5%",
+     "previous": "2.4%",
+     "actual": ""
+    }
+   ],
+   "children": [],
+   "links": [],
+   "prevMove": "+1.7pips"
+  },
+  {
+   "id": "2026-12-01-10:45-1",
+   "time": "10:45",
+   "at": "2026-12-01T10:45:00+09:00",
+   "country": "中",
+   "currency": "CNY",
+   "title": "中)RatingDog製造業PMI（購買担当者景気指数） 11月 [RatingDog製造業PMI]",
+   "rank": null,
+   "mkImportance": 3,
+   "kind": "indicator",
+   "source": "minkabu",
+   "mkCode": "CN-CHPMI",
+   "values": [
+    {
+     "forecast": "51.8",
+     "previous": "52.0",
+     "actual": ""
+    }
+   ],
+   "children": [],
+   "links": [],
+   "prevMove": "+2.3pips"
+  },
+  {
+   "id": "2026-12-01-19:00-2",
+   "time": "19:00",
+   "at": "2026-12-01T19:00:00+09:00",
+   "country": "欧",
+   "currency": "EUR",
+   "title": "欧)消費者物価指数（HICP・概算値速報） 11月 [前年比]",
+   "rank": null,
+   "mkImportance": 3,
+   "kind": "indicator",
+   "source": "minkabu",
+   "mkCode": "EU-ECPIA",
+   "values": [
+    {
+     "forecast": "4.0%",
+     "previous": "4.0%",
+     "actual": ""
+    }
+   ],
+   "children": [],
+   "links": [],
+   "prevMove": "-3.8pips"
+  },
+  {
+   "id": "2026-12-01-19:00-3",
+   "time": "19:00",
+   "at": "2026-12-01T19:00:00+09:00",
+   "country": "欧",
+   "currency": "EUR",
+   "title": "欧)消費者物価指数（HICP・概算値速報） 11月 [コア・前年比]",
+   "rank": null,
+   "mkImportance": 3,
+   "kind": "indicator",
+   "source": "minkabu",
+   "mkCode": "EU-ECPIA",
+   "values": [
+    {
+     "forecast": "2.7%",
+     "previous": "2.6%",
+     "actual": ""
+    }
+   ],
+   "children": [],
+   "links": [],
+   "prevMove": "-3.8pips"
+  },
+  {
+   "id": "2026-12-01-23:45-4",
+   "time": "23:45",
+   "at": "2026-12-01T23:45:00+09:00",
+   "country": "米",
+   "currency": "USD",
+   "title": "米)PMI（購買担当者景気指数・確報値） 11月 [製造業PMI・確報値]",
+   "rank": null,
+   "mkImportance": 4,
+   "kind": "indicator",
+   "source": "minkabu",
+   "mkCode": "US-PMIR",
+   "values": [
+    {
+     "forecast": "54.5",
+     "previous": "54.5",
+     "actual": ""
+    }
+   ],
+   "children": [],
+   "links": [],
+   "prevMove": "+1.3pips"
+  },
+  {
+   "id": "2026-12-01-24:00-5",
+   "time": "24:00",
+   "at": "2026-12-02T00:00:00+09:00",
+   "country": "米",
+   "currency": "USD",
+   "title": "米)ISM製造業景気指数 11月",
+   "rank": null,
+   "mkImportance": 5,
+   "kind": "indicator",
+   "source": "minkabu",
+   "mkCode": "US-NAPM",
+   "values": [
+    {
+     "forecast": "55.1",
+     "previous": "55.5",
+     "actual": ""
+    }
+   ],
+   "children": [],
+   "links": [],
+   "prevMove": "+2.7pips"
+  },
+  {
+   "id": "2026-12-01-24:00-6",
+   "time": "24:00",
+   "at": "2026-12-02T00:00:00+09:00",
+   "country": "米",
+   "currency": "USD",
+   "title": "米)JOLTS求人件数 10月",
+   "rank": null,
+   "mkImportance": 4,
+   "kind": "indicator",
+   "source": "minkabu",
+   "mkCode": "US-JJC",
+   "values": [
+    {
+     "forecast": "744.5万人",
+     "previous": "752.3万人",
+     "actual": ""
+    }
+   ],
+   "children": [],
+   "links": [],
+   "prevMove": "+20.0pips"
+  }
+ ]
+}

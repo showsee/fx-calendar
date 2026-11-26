@@ -188,6 +188,29 @@
    "children": [],
    "links": [],
    "prevMove": "+11.3pips"
+  },
+  {
+   "id": "2026-11-30-24:00-8",
+   "time": "24:00",
+   "at": "2026-12-01T00:00:00+09:00",
+   "country": "米",
+   "currency": "USD",
+   "title": "米)卸売在庫（確報値） 10月 [卸売在庫・前月比・確報値]",
+   "rank": null,
+   "mkImportance": 3,
+   "kind": "indicator",
+   "source": "minkabu",
+   "mkCode": "US-WSIF",
+   "values": [
+    {
+     "forecast": "",
+     "previous": "",
+     "actual": ""
+    }
+   ],
+   "children": [],
+   "links": [],
+   "prevMove": ""
   }
  ]
 }
