@@ -76,11 +76,13 @@
    "values": [
     {
      "forecast": "-0.1%",
-     "previous": "-0.1%"
+     "previous": "-0.1%",
+     "actual": "-0.2%"
     },
     {
      "forecast": "-0.1%",
-     "previous": "-0.1%"
+     "previous": "-0.1%",
+     "actual": "-0.2%"
     }
    ],
    "children": [],
@@ -105,7 +107,8 @@
    "values": [
     {
      "forecast": "-0.2%",
-     "previous": "+0.4%"
+     "previous": "+0.4%",
+     "actual": "-0.7%"
     }
    ],
    "children": [],
@@ -159,14 +162,16 @@
    "values": [
     {
      "forecast": "6.4%",
-     "previous": "6.4%"
+     "previous": "6.4%",
+     "actual": "6.4%"
     }
    ],
    "children": [
     {
      "title": "失業者数",
      "forecast": "+0.45万人",
-     "previous": "+0.40万人"
+     "previous": "+0.40万人",
+     "actual": "+9.0千人"
     }
    ],
    "links": []
@@ -203,7 +208,8 @@
    "values": [
     {
      "forecast": "+94.0億",
-     "previous": "+88.4億"
+     "previous": "+88.4億",
+     "actual": "44.8億カナダドル"
     }
    ],
    "children": [],
@@ -231,7 +237,8 @@
    "values": [
     {
      "forecast": "+0.5%",
-     "previous": "+0.6%"
+     "previous": "+0.6%",
+     "actual": "+0.9%"
     }
    ],
    "children": [],
@@ -270,5 +277,5 @@
    "links": []
   }
  ],
- "resultsUpdated": "2026-11-27T03:53:49.946Z"
+ "resultsUpdated": "2026-11-27T14:41:06.615Z"
 }
